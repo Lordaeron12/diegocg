@@ -1,2 +1,2 @@
-# diegocg
-Mi sitio web
+# DiegoCG.co
+Repositorio de mi sitio web.
