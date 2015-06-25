@@ -3,6 +3,21 @@ Flex Template
 http://www.templatemo.com/preview/templatemo_406_flex 
 */
 
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url("../fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -314,6 +329,7 @@ hr {
   color: #444444;
   line-height: 100px;
   padding-top: 37px;
+  font-family: Roboto-Bold;
 }
 .main-menu ul li.active a {
   border-top: 3px solid #ec523f;
@@ -422,13 +438,14 @@ a.toggle-menu {
   text-transform: uppercase;
   border-bottom: 1px solid #444444;
   display: inline-block;
+  font-family: 'Roboto-Regular';
 }
 .heading-section p {
   color: #444444;
   font-size: 16px;
-  font-weight: 300;
   text-transform: uppercase;
   margin-top: 10px;
+  font-family: 'Roboto-Light';
 }
 
 .small-text {
